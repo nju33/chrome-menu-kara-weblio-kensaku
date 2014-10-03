@@ -1,0 +1,30 @@
+{
+  "name": "menu-kara-weblio-kensaku",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "init": "npm i -D grunt grunt load-grunt-tasks grunt-contrib-watch grunt-contrib-copy grunt-contrib-compress grunt-contrib-imagemin",
+    "sass": "npm i -D grunt-contrib-htmlmin grunt-contrib-sass grunt-contrib-csscomb grunt-contrib-csso",
+    "media": "npm i -D grunt-combine-media-queries",
+    "js": "npm i -D grunt-contrib-coffee grunt-ngmin grunt-contrib-uglify",
+    "browserify": "npm i -D grunt-browserify q coffeeify debowerify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/totora0155/menu-kara-weblio-kensaku.git"
+  },
+  "author": "totora0155",
+  "license": "CC BY",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-coffee": "^0.11.1",
+    "grunt-contrib-compress": "^0.12.0",
+    "grunt-contrib-copy": "^0.6.0",
+    "grunt-contrib-imagemin": "^0.8.1",
+    "grunt-contrib-uglify": "^0.6.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-ngmin": "0.0.3",
+    "load-grunt-tasks": "^0.6.0"
+  }
+}

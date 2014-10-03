@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "__MSG_appName__",
+  "description": "__MSG_appDesc__",
+  "version": "1.0.0.0",
+  "default_locale": "ja",
+  "permissions": [
+    "contextMenus",
+    "tabs",
+    "http://*/",
+    "https://*/"
+  ],
+
+  "icons": {
+    "16": "icon/icon_16.png",
+    "128": "icon/icon_48.png",
+    "128": "icon/icon_128.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["js/contentscript.js"]
+    }
+  ],
+
+  "background": {
+    "scripts": ["js/lib/q.js", "js/background.js"]
+  }
+}
