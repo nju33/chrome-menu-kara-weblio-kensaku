@@ -7,6 +7,9 @@
     "message": "右クリックで開くコンテキストメニューから、Weblioで現在の選択範囲を検索する拡張機能",
     "description": "ウェブストアで表示されるアプリの詳細説明"
   },
+  "contextTitle": {
+    "message": "選択範囲をWeblioで検索"
+  },
   "formGroupType": {
     "message": "検索タイプ"
   },

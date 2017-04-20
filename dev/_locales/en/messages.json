@@ -7,6 +7,9 @@
     "message": "An extension that search to current selection range with the Weblio from the context menu opened by right click",
     "description": "Detailed description of the application that is displayed in the Web Store"
   },
+  "contextTitle": {
+    "message": "Search selection range with Weblio"
+  },
   "formGroupType": {
     "message": "Search type"
   },

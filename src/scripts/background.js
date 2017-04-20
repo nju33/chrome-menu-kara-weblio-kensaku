@@ -51,7 +51,7 @@ chrome.windows.onFocusChanged.addListener(wid => {
 chrome.contextMenus.removeAll(() => {
   chrome.contextMenus.create({
     id: chrome.i18n.getMessage('appName'),
-    title: chrome.i18n.getMessage('appName'),
+    title: chrome.i18n.getMessage('contextTitle'),
     contexts: ['selection']
   });
 });
