@@ -41,7 +41,7 @@ chrome.windows.onFocusChanged.addListener(wid => {
   if (currentWin === null) {
     return;
   }
-  if (currentWin.id === wid) {
+  if (currentWin.id !== wid) {
     chrome.windows.remove(currentWin.id, () => {
       currentWin = null;
     });
