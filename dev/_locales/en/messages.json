@@ -1,0 +1,16 @@
+{
+  "appName": {
+    "message": "Weblio search from the context menu",
+    "description": "Application name that is displayed in the Web Store"
+  },
+  "appDesc": {
+    "message": "An extension that search to current selection range with the Weblio from the context menu opened by right click",
+    "description": "Detailed description of the application that is displayed in the Web Store"
+  },
+  "formGroupType": {
+    "message": "Search type"
+  },
+  "status": {
+    "message": "Options saved"
+  }
+}

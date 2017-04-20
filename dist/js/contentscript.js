@@ -1,1 +1,0 @@
-(function(){chrome.runtime.onMessage.addListener(function(request,sender,sendResponse){return"selection"===request.msg?sendResponse({word:window.getSelection().toString()}):void 0})}).call(this);
